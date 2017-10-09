@@ -1,0 +1,12 @@
+1)
+cd Dropbox\Web\Projects\Irregular Verbs
+2)
+sass --watch scss/style.scss:css/style.css
+
+https://github.com/moroz-igor/Irregular-Verbs.git
+
+git remote add origing_github https://github.com/moroz-igor/Irregular-Verbs.git
+git push -u origin master
+
+
+
