@@ -467,7 +467,6 @@ function dropping_focus() {
     $('#user_string_7').focus(function() { focusClick = 7; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_8').focus(function() { focusClick = 8; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_9').focus(function() { focusClick = 9; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
-    
 		$('#user_string_10').focus(function() { focusClick = 10; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_11').focus(function() { focusClick = 11; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_12').focus(function() { focusClick = 12; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
@@ -479,7 +478,6 @@ function dropping_focus() {
     $('#user_string_18').focus(function() { focusClick = 18; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_19').focus(function() { focusClick = 19; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_20').focus(function() { focusClick = 20; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
-    
         $('#user_string_21').focus(function() { focusClick = 21; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_22').focus(function() { focusClick = 22; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_23').focus(function() { focusClick = 23; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
@@ -490,7 +488,6 @@ function dropping_focus() {
     $('#user_string_28').focus(function() { focusClick = 28; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_29').focus(function() { focusClick = 29; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_30').focus(function() { focusClick = 30; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
-    
         $('#user_string_31').focus(function() { focusClick = 31; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_32').focus(function() { focusClick = 32; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_33').focus(function() { focusClick = 33; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
@@ -501,7 +498,6 @@ function dropping_focus() {
     $('#user_string_38').focus(function() { focusClick = 38; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_39').focus(function() { focusClick = 39; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_40').focus(function() { focusClick = 40; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
-    
         $('#user_string_41').focus(function() { focusClick = 41; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_42').focus(function() { focusClick = 42; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_43').focus(function() { focusClick = 43; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
@@ -512,7 +508,6 @@ function dropping_focus() {
     $('#user_string_48').focus(function() { focusClick = 48; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_49').focus(function() { focusClick = 49; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_50').focus(function() { focusClick = 50; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
-    
         $('#user_string_51').focus(function() { focusClick = 51; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_52').focus(function() { focusClick = 52; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_53').focus(function() { focusClick = 53; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
@@ -523,7 +518,6 @@ function dropping_focus() {
     $('#user_string_58').focus(function() { focusClick = 58; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_59').focus(function() { focusClick = 59; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_60').focus(function() { focusClick = 60; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
-    
         $('#user_string_61').focus(function() { focusClick = 61; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_62').focus(function() { focusClick = 62; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_63').focus(function() { focusClick = 63; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
@@ -534,7 +528,6 @@ function dropping_focus() {
     $('#user_string_68').focus(function() { focusClick = 68; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_69').focus(function() { focusClick = 69; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_70').focus(function() { focusClick = 70; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); }); 
-    
         $('#user_string_71').focus(function() { focusClick = 71; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_72').focus(function() { focusClick = 72; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_73').focus(function() { focusClick = 73; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
@@ -545,7 +538,6 @@ function dropping_focus() {
     $('#user_string_78').focus(function() { focusClick = 78; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_79').focus(function() { focusClick = 79; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_80').focus(function() { focusClick = 80; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });                      
-    
         $('#user_string_81').focus(function() { focusClick = 81; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_82').focus(function() { focusClick = 82; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_83').focus(function() { focusClick = 83; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
@@ -556,7 +548,6 @@ function dropping_focus() {
     $('#user_string_88').focus(function() { focusClick = 88; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_89').focus(function() { focusClick = 89; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_90').focus(function() { focusClick = 90; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
-    
         $('#user_string_91').focus(function() { focusClick = 91; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_92').focus(function() { focusClick = 92; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_93').focus(function() { focusClick = 93; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
@@ -566,7 +557,6 @@ function dropping_focus() {
     $('#user_string_97').focus(function() { focusClick = 97; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_98').focus(function() { focusClick = 98; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_99').focus(function() { focusClick = 99; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); }); 
-        
 		$('#user_string_100').focus(function() { focusClick = 100; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_101').focus(function() { focusClick = 101; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_102').focus(function() { focusClick = 102; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
@@ -578,7 +568,6 @@ function dropping_focus() {
     $('#user_string_108').focus(function() { focusClick = 108; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_109').focus(function() { focusClick = 109; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_110').focus(function() { focusClick = 110; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
-    
         $('#user_string_111').focus(function() { focusClick = 111; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_112').focus(function() { focusClick = 112; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_113').focus(function() { focusClick = 113; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
@@ -590,7 +579,6 @@ function dropping_focus() {
     $('#user_string_119').focus(function() { focusClick = 119; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_120').focus(function() { focusClick = 120; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
    });
-
 function moveRect(e) {
     $(function() {
         var result = 0;
@@ -605,7 +593,6 @@ function moveRect(e) {
             flagUp[i] = $("#flag_up_" + i).html();
         }
         var autofocus = 1;
-
         function focusStepDown() {
             var startDown = $("#autofocus").html();
             startDown = startDown * 1;
