@@ -1,4 +1,3 @@
-//"use strict";
 //массив строк эталонов
 function etalonarr(count) {
     var etalonstring = ["arise arose arisen",
