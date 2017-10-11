@@ -1,4 +1,3 @@
-//массив строк эталонов
 function etalonarr(count) {
     var etalonstring = ["arise arose arisen",
         "awake awoke awaked awoke",
@@ -254,7 +253,7 @@ function rusword(count) {
     }
     return russian_word_element();
 }
-//автозаполнение болоков перевода и корректных ответов на Javascript
+
 function filling_answer() {
     for (var i = 1; i <= 120; i++) {
         document.getElementById('correct_' + i).innerHTML = etalonarr(i - 1);
@@ -263,7 +262,6 @@ function filling_answer() {
 }
 filling_answer();
 
-// функция трансформации стороки эталона в массив эталон
 function transet(stringet) {
     var arretalon = new Array(stringet.length);
     for (var i = 0; i < stringet.length; i++) {
@@ -271,15 +269,13 @@ function transet(stringet) {
     }
     return arretalon;
 }
-// функция трансформация пользовательской строки в пользовательский массив
+
 function transus(stringus) {
     var arruser = new Array(stringus.length);
-    // приводим строку к нижнему регистру
     stringus = stringus.toLowerCase();
     for (var i = 0; i < stringus.length; i++) {
         arruser[i] = stringus[i];
     }
-    // удаляем  пробелы с начала и конца массива
     do {
         var flag = true;
         if (arruser[arruser.length - 1] == " ") {
@@ -290,7 +286,6 @@ function transus(stringus) {
             arruser.shift();
             flag = false;
         }
-        //удаляем двойные пробелы между элементами массива
         for (var i = 0; i < arruser.length; i++) {
             if ((arruser[i] == " ") && (arruser[i + 1] == " ")) {
                 arruser.splice(i, 1);
@@ -301,7 +296,7 @@ function transus(stringus) {
     } while (flag == false);
     return arruser;
 }
-// функция ограничения ввода пунктуации и спецсимволов
+
 function specialSimbols(userString, special_mes) {
     var simbol = true;
     for (var i = 0; i < userString.length; i++) {
@@ -309,7 +304,7 @@ function specialSimbols(userString, special_mes) {
             simbol = false;
         }
     }
-    //вывод сообщения на случай использования пунктуации или спецсимволов
+
     if (simbol == false) {
         $(document).ready(function() {
             var warning_spesial = $(special_mes);
@@ -322,7 +317,7 @@ function specialSimbols(userString, special_mes) {
         });
     }
 }
-//функция сравнения стороки пользователя и строки эталона
+
 function compare(userString, etalonString) {
     var comuser = transus(userString);
     var cometal = transet(etalonString);
@@ -345,7 +340,7 @@ function compare(userString, etalonString) {
     }
     return overallresult;
 }
-//вывод сообщения на случай неправильного ввода слов
+
 function visual_result(result, lamp, answer, correct, incorrect) {
     if (result == true) {
         document.getElementById(lamp).src = 'images/lamp_on.gif';
@@ -360,7 +355,7 @@ function visual_result(result, lamp, answer, correct, incorrect) {
         });
     }
 }
-// скрытие блока ответов кнопкой 'Hide all answers'.
+
 function start_training() {
     $(document).ready(function() {
         $('.answer_block').fadeOut();
@@ -373,19 +368,19 @@ function stop_training() {
         $('.statistics').hide(600);
     });
 }
-// исходное скрытие блоков предупреждений до появления ошибки
+
 $(document).ready(function() {
     $('.red').hide();
     $('.statistics').hide();
     $('.answer_name').hide();
 });
-//скрытие блоков пяти строк
+
 function hide_five(count) {
     $(document).ready(function() {
         $('#five_' + count).hide(600);
     });
 }
-//скрытие блоков двадцати строк
+
 function hide_twenty(count) {
     $(document).ready(function() {
         $('#twenty_' + count).fadeOut(600);
@@ -406,7 +401,7 @@ function twenty(count) {
         show_twenty(i);
     }
 }
-//счётчики блока статистики
+
 function countCorrect() {
     var count_corr = $("#count_correct").html();
     count_corr = count_corr * 1 + 1;
@@ -418,7 +413,7 @@ function countInorrect() {
     count_corr = count_corr * 1 + 1;
     document.getElementById('count_incorrect').innerHTML = count_corr;
 }
-//основная функция компарации входных данных с эталоном
+
 function progressive(count) {
     // start_training();
     var lamp = "lamp_" + count,
@@ -463,7 +458,7 @@ function dropping_focus() {
 }
     $(function() {
              var focusClick = 0;
-    $('#user_string_1').focus(function() { focusClick = 1; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
+		$('#user_string_1').focus(function() { focusClick = 1; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_2').focus(function() { focusClick = 2; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_3').focus(function() { focusClick = 3; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_4').focus(function() { focusClick = 4; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
@@ -473,7 +468,7 @@ function dropping_focus() {
     $('#user_string_8').focus(function() { focusClick = 8; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_9').focus(function() { focusClick = 9; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     
-    $('#user_string_10').focus(function() { focusClick = 10; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
+		$('#user_string_10').focus(function() { focusClick = 10; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_11').focus(function() { focusClick = 11; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_12').focus(function() { focusClick = 12; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_13').focus(function() { focusClick = 13; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
@@ -572,7 +567,7 @@ function dropping_focus() {
     $('#user_string_98').focus(function() { focusClick = 98; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_99').focus(function() { focusClick = 99; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); }); 
         
-    $('#user_string_100').focus(function() { focusClick = 100; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
+		$('#user_string_100').focus(function() { focusClick = 100; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_101').focus(function() { focusClick = 101; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_102').focus(function() { focusClick = 102; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_103').focus(function() { focusClick = 103; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
@@ -595,7 +590,6 @@ function dropping_focus() {
     $('#user_string_119').focus(function() { focusClick = 119; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
     $('#user_string_120').focus(function() { focusClick = 120; document.getElementById('autofocus').innerHTML = focusClick; dropping_focus(); });           
    });
-
 
 function moveRect(e) {
     $(function() {
@@ -628,7 +622,6 @@ function moveRect(e) {
                 }
             }
         }
-
         function focusStepUp() {
             var startUp = $("#autofocus").html();
             startUp = startUp * 1;
@@ -644,7 +637,6 @@ function moveRect(e) {
                 }
             }
         }
-
         function validation() {
             var number = $("#autofocus").html();
             number = number * 1;
@@ -666,7 +658,6 @@ function moveRect(e) {
         $("#user_string_" + count).focus(function() {
             autofocus = count;
             document.getElementById('autofocus').innerHTML = autofocus;
-
         });
         $("#user_string_" + count).focus();
     });
